@@ -6,11 +6,11 @@ An async Spotify Web API wrapper for .NET
 [![Build status](https://ci.appveyor.com/api/projects/status/3o35cu9twh55t7t9)](https://ci.appveyor.com/project/DanielLarsenNZ/radiostr-spotifywebapi)
 
 ### Work in Progress
-I writing the wrappers as I need them. If you need any endpoints wrapped urgently then 
+If you need any endpoints wrapped urgently then 
 [create an Issue](https://github.com/DanielLarsenNZ/Radiostr-SpotifyWebApi/issues/new), or Fork + PR.
 
 ### Async all the things
-This wrapper library takes advantage of the async-await features in .NET 4.5. If you need sync methods then you can call 
+This wrapper library takes advantage of the async-await features in .NET 4.5. If you need sync methods you can call 
 `.Wait()` on them.
 
 ### Download
