@@ -1,0 +1,41 @@
+bin/
+obj/
+
+# MSTest test Results
+TestResults/
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+
+# NuGet Packages Directory
+packages/
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+# Others
+*.Cache
+
+# Project ignores
+*.suo
+bin
+obj
+*.user
+*.sln.docstates
+Readme.html
+appSettings.local.config
+appSettings.config
+_*
