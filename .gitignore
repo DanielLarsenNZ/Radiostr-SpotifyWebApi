@@ -39,3 +39,4 @@ Readme.html
 appSettings.local.config
 appSettings.config
 _*
+*.nupkg
