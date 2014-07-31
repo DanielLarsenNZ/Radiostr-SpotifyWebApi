@@ -13,7 +13,7 @@ I writing the wrappers as I need them. If you need any endpoints wrapped urgentl
 ## Async all the things
 
 This wrapper library takes advantage of the async-await features in .NET 4.5. If you need sync methods then you can call 
-.Wait() on them.
+`.Wait()` on them.
 
 ## Download
 
@@ -21,7 +21,7 @@ This wrapper library takes advantage of the async-await features in .NET 4.5. If
 
 ## Example
 
-```
+```csharp
     // TODO: Dependency Resolver
     var http = new RestHttpClient(new System.Net.Http.HttpClient());
     var playlists = new PlaylistsApi(http,
@@ -39,6 +39,6 @@ DanielLarsenNZ/Radiostr for a working example of using this library.
 ## Acknowledgements
 
 This wrapper design borrows from [Api.js](https://github.com/possan/webapi-player-example/blob/master/services/api.js) 
-in possan/webapi-player-example - a beautifully simple JavaScript implementation.
+in [possan/webapi-player-example](https://github.com/possan/webapi-player-example) - a beautifully simple JavaScript implementation.
 
-Nominate JamesNK/Newtonsoft.Json for the Nobel Peace Prize.
+Nominate [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) for the Nobel Peace Prize.
