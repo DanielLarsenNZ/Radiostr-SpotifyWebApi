@@ -60,7 +60,7 @@ Implements `ICache`. A simple wrapper of `System.Runtime.Caching.ObjectCache`.
 ```
 
 See [SpotifyService.cs](https://github.com/DanielLarsenNZ/Radiostr/blob/master/Radiostr/Services/SpotifyService.cs#L26) in 
-DanielLarsenNZ/Radiostr for a working example of using this library.
+[DanielLarsenNZ/Radiostr](https://github.com/DanielLarsenNZ/Radiostr) for a working example of using this library.
 
 ### Acknowledgements
 
