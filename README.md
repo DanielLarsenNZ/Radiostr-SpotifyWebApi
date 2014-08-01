@@ -17,19 +17,18 @@ This wrapper library takes advantage of the async-await features in .NET 4.5. If
 
 > PM> Install-Package Radiostr-SpotifyWebApi 
 
-<<<<<<< HEAD
-## Classes
+### Classes
 
-### `PlaylistsApi`
+#### `PlaylistsApi`
 
 Contains methods that correspond with Playlists endpoints in https://developer.spotify.com/web-api/endpoint-reference/. 
 Depends on an `IHttpClient` and an `IAuthorizationApi`.
 
-### `RestHttpClient`
+#### `RestHttpClient`
 
 Implements `IHttpClient`. A simple Wrapper of `System.Net.Http.HttpClient` suitable for use with the Spotify Web API.
 
-### `ClientCredentialsAuthorizationApi`
+#### `ClientCredentialsAuthorizationApi`
 
 Implements `IAuthorizationApi`. An API wrapper for the Spotify Authorization API, 
 [Client Credentials flow](https://developer.spotify.com/web-api/authorization-guide/#client-credentials-flow). Depends an 
@@ -41,13 +40,13 @@ The Spotify API Client ID and Secret should be present in the `NameValueCollecti
 as in `System.Configuration.ConfigurationManager.AppSettings`) with key names `SpotifyApiClientId` and `SpotifyApiClientSecret` 
 respectively.
 
-### `RuntimeMemoryCache`
+Go to https://developer.spotify.com/ to register your application and obtain a Spotify API Client ID.
+
+#### `RuntimeMemoryCache`
 
 Implements `ICache`. A simple wrapper of `System.Runtime.Caching.ObjectCache`.
 
-=======
->>>>>>> b788e6f9ae4d8128c5ba668206d1366f98b742fe
-### Example
+#### Example
 
 ```csharp
     // TODO: Dependency Resolver
@@ -63,12 +62,8 @@ Implements `ICache`. A simple wrapper of `System.Runtime.Caching.ObjectCache`.
 See [SpotifyService.cs](https://github.com/DanielLarsenNZ/Radiostr/blob/master/Radiostr/Services/SpotifyService.cs#L26) in 
 DanielLarsenNZ/Radiostr for a working example of using this library.
 
-<<<<<<< HEAD
 ### Acknowledgements
 
-=======
-#### Acknowledgements
->>>>>>> b788e6f9ae4d8128c5ba668206d1366f98b742fe
 This wrapper design borrows from [Api.js](https://github.com/possan/webapi-player-example/blob/master/services/api.js) 
 in [possan/webapi-player-example](https://github.com/possan/webapi-player-example) - a beautifully simple JavaScript implementation.
 
