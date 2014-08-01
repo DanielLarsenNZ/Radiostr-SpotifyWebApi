@@ -7,6 +7,9 @@ using Radiostr.SpotifyWebApi.Http;
 
 namespace Radiostr.SpotifyWebApi
 {
+    /// <summary>
+    /// An API Wrapper for the Spotify Web API Playlists endpoints.
+    /// </summary>
     public class PlaylistsApi : IPlaylistsApi
     {
         internal const string BaseUrl = "https://api.spotify.com/v1";

@@ -55,7 +55,7 @@ Implements `ICache`. A simple wrapper of `System.Runtime.Caching.ObjectCache`.
         new ClientCredentialsAuthorizationApi(http, System.Configuration.ConfigurationManager.AppSettings,
             new RuntimeMemoryCache(System.Runtime.Caching.MemoryCache.Default)));
 
-    dynamic playlists = await api.GetPlaylists("DanielLarsenNZ");
+    var playlists = await api.GetPlaylists("DanielLarsenNZ");
     Trace.TraceInformation(playlists.ToString());
 ```
 

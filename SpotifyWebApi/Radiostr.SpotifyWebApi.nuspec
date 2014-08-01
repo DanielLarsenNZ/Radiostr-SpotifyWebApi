@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Radiostr-SpotifyWebApi</id>
-    <version>1.0.0.0</version>
+    <version>$version$</version>
     <title>Radiostr-SpotifyWebApi</title>
     <authors>DanielLarsenNZ</authors>
     <owners>DanielLarsenNZ</owners>
