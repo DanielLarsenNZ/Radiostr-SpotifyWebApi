@@ -5,20 +5,19 @@ An async Spotify Web API wrapper for .NET
 
 [![Build status](https://ci.appveyor.com/api/projects/status/3o35cu9twh55t7t9)](https://ci.appveyor.com/project/DanielLarsenNZ/radiostr-spotifywebapi)
 
-## Work in Progress
-
-I writing the wrappers as I need them. If you need any endpoints wrapped urgently then 
+### Work in Progress
+If you need any endpoints wrapped urgently then 
 [create an Issue](https://github.com/DanielLarsenNZ/Radiostr-SpotifyWebApi/issues/new), or Fork + PR.
 
-## Async all the things
+### Async all the things
+This wrapper library takes advantage of the async-await features in .NET 4.5. If you need sync methods you can call 
+`.Wait()` on them.
 
-This wrapper library takes advantage of the async-await features in .NET 4.5. If you need sync methods then you can call 
-.Wait() on them.
-
-## Download
+### Download
 
 > PM> Install-Package Radiostr-SpotifyWebApi 
 
+<<<<<<< HEAD
 ## Classes
 
 ### `PlaylistsApi`
@@ -46,9 +45,11 @@ respectively.
 
 Implements `ICache`. A simple wrapper of `System.Runtime.Caching.ObjectCache`.
 
+=======
+>>>>>>> b788e6f9ae4d8128c5ba668206d1366f98b742fe
 ### Example
 
-```
+```csharp
     // TODO: Dependency Resolver
     var http = new RestHttpClient(new System.Net.Http.HttpClient());
     var api = new PlaylistsApi(http,
@@ -62,9 +63,13 @@ Implements `ICache`. A simple wrapper of `System.Runtime.Caching.ObjectCache`.
 See [SpotifyService.cs](https://github.com/DanielLarsenNZ/Radiostr/blob/master/Radiostr/Services/SpotifyService.cs#L26) in 
 DanielLarsenNZ/Radiostr for a working example of using this library.
 
+<<<<<<< HEAD
 ### Acknowledgements
 
+=======
+#### Acknowledgements
+>>>>>>> b788e6f9ae4d8128c5ba668206d1366f98b742fe
 This wrapper design borrows from [Api.js](https://github.com/possan/webapi-player-example/blob/master/services/api.js) 
-in possan/webapi-player-example - a beautifully simple JavaScript implementation.
+in [possan/webapi-player-example](https://github.com/possan/webapi-player-example) - a beautifully simple JavaScript implementation.
 
-Nominate JamesNK/Newtonsoft.Json for the Nobel Peace Prize.
+Nominate [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) for the Nobel Peace Prize.
