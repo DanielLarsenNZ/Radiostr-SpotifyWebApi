@@ -44,7 +44,7 @@ namespace Radiostr.SpotifyWebApi
             string json = await _http.Get(string.Format(urlFormat, Uri.EscapeDataString(username)),
                 new AuthenticationHeaderValue("Bearer", await _auth.GetAccessToken()));
             var playlists = JsonConvert.DeserializeObject<T>(json);
-            Trace.TraceInformation("Got Playlists: " + playlists);
+            Trace.TraceInformation("Got Playlists");
 
             return playlists;
         }
@@ -85,7 +85,7 @@ namespace Radiostr.SpotifyWebApi
                         string.Format(urlFormat, Uri.EscapeDataString(username), Uri.EscapeDataString(playlistId)),
                         new AuthenticationHeaderValue("Bearer", await _auth.GetAccessToken()));
             var tracks = JsonConvert.DeserializeObject<T>(json);
-            Trace.TraceInformation("Got Tracks: " + tracks);
+            Trace.TraceInformation("Got Tracks");
 
             return tracks;
         }

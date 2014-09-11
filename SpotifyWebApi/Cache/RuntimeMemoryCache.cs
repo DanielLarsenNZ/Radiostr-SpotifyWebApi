@@ -11,6 +11,10 @@ namespace Radiostr.SpotifyWebApi.Cache
     {
         private readonly ObjectCache _cache;
 
+        /// <summary>
+        /// Instantiates a new <see cref="RuntimeMemoryCache"/>
+        /// </summary>
+        /// <param name="objectCache"></param>
         public RuntimeMemoryCache(ObjectCache objectCache)
         {
             _cache = objectCache;

@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Radiostr-SpotifyWebApi</id>
-    <version>$version$</version>
+    <version>1.0.2</version>
     <title>Radiostr-SpotifyWebApi</title>
     <authors>DanielLarsenNZ</authors>
     <owners>DanielLarsenNZ</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/DanielLarsenNZ/Radiostr-SpotifyWebApi</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An async Spotify Web API wrapper for .NET</description>
-    <releaseNotes>First release, Partial PlaylistApi, AuthorizationApi, RuntimeMemoryCache and RestHttpClient.</releaseNotes>
+    <releaseNotes>Minor tidyup.</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>Spotify API Wrapper .NET C#</tags>
   </metadata>

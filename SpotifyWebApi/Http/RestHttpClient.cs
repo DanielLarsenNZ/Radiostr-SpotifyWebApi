@@ -15,6 +15,9 @@ namespace Radiostr.SpotifyWebApi.Http
     {
         private readonly HttpClient _httpClient;
 
+        /// <summary>
+        /// Instantiates a new instance of <see cref="RestHttpClient"/>
+        /// </summary>
         public RestHttpClient(HttpClient httpClient)
         {
             if (httpClient == null) throw new ArgumentNullException("httpClient");
